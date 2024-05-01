@@ -6,7 +6,7 @@ After=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=/home/sdnuser/graylogd
+WorkingDirectory=/home/sdnuser/Graylogd
 ExecStart=/usr/bin/docker-compose up -d
 
 [Install]
